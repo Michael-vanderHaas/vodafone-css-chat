@@ -16,7 +16,7 @@ body {
     padding: 5px;
 }
 
-.jumbotron .logo {
+.jumbotron #logo {
     width: 200px;
     height: 65px;
     background: #f77f26;
@@ -69,8 +69,9 @@ button {
 .btn {
     border-radius: 0;
 }
-.btn-primary {
+div .btn-primary {
     background-color: #f77f26;
+    border: 1px solid  #f77f26;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -85,14 +86,14 @@ button {
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-color: #f4aa5b;
-    border-color: #f4aa5b;
+    background-color:   #f4aa5b;
+    border-color:       #f4aa5b;
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-    background-color: #eee;
-    color: #ccc;
+    background-color:   #eee;
+    color:              #ccc;
 }
 
 #send {
