@@ -149,7 +149,7 @@ div .btn-primary {
         padding: 0 5px;
     }
 
-    .nav-link {
+    .navbar-nav .nav-link {
         height: 46px;
         text-align: center;
         line-height: 1;
@@ -165,12 +165,15 @@ div .btn-primary {
     }
     li[data-content-id="end"] .nav-link {
         background: #f77f26;
+        border-color: #f77f26;
     }
     li[data-content-id="end"] .nav-link:focus {
         background: #f4aa5b;
+        border-color: #f4aa5b;
     }
     li[data-content-id="end"] .nav-link:active {
         background: #df7120;
+        border-color: #df7120;
     }
 
     .navbar-nav {
@@ -215,4 +218,10 @@ div .btn-primary {
 #closeEndChatOverlay {
     max-width: 320px;
     height: 42px;
+}
+
+
+/* chat history ------------------- */
+#chatHistory {
+    padding-top: 80px;
 }
