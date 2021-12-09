@@ -8,6 +8,7 @@ body {
 
     display: flex;
     flex-direction: column;
+    background: #fff;
 }
 
 .jubmotron {
@@ -32,6 +33,8 @@ button {
 
 .questionaire:before {
     content: 'Welcome to Live Chat';
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .form-control {
