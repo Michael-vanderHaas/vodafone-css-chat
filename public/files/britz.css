@@ -138,11 +138,22 @@ div .btn-primary {
         flex-direction: row;
     }
 
+    .nav-link {
+        height: 46px;
+        text-align: center;
+        line-height: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background: #f77f26;
+    }
+
 }
 
 
 /* chat */
-.text-balloon.agent {
+.text-balloon {
     border-radius: 0;
     border: none;
     padding: 5px 10px;
@@ -162,7 +173,7 @@ div .btn-primary {
     padding-left: 15px;
 }
 
-
+/* buttons in the nav bar */
 
 
 /* end chat screen ------------------------- */
