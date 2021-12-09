@@ -204,4 +204,12 @@ div .btn-primary {
 /* end chat screen ------------------------- */
 #endChatOverlay {
     padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#endChat,
+#closeEndChatOverlay {
+    max-width: 320px;
+    height: 42px;
 }
