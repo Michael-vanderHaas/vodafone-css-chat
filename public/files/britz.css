@@ -35,7 +35,7 @@ button {
     flex-direction: column;
     flex-grow: 1;
     justify-content: center;
-    width: 300px;
+    width: 320px;
     align-items: center;
     margin: auto;
     background: #fff;
@@ -47,6 +47,8 @@ button {
     margin-bottom: 20px;
 }
 
+
+
 /* input -- */
 .form-control {
     border-radius: 0;
@@ -55,6 +57,10 @@ button {
     border-color: #f4aa5b;
     box-shadow: none
 }
+.required:focus {
+    box-shadow: none;
+}
+
 #fullName {
     margin-bottom: 20px;
 }
@@ -64,16 +70,22 @@ button {
     border-radius: 0;
 }
 .btn-primary {
-    background: #f77f26;
+    background-color: #f77f26;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .btn-primary:hover {
-    background: #df7120;
+    background-color: #df7120;
+    border-color: #df7120;
 }
 .btn-primary:focus {
     box-shadow: none
 }
 
-
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #f4aa5b;
+    border-color: #f4aa5b;
+}
 
