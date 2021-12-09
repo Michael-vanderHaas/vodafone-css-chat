@@ -89,6 +89,12 @@ button {
     border-color: #f4aa5b;
 }
 
+.btn-primary.disabled,
+.btn-primary:disabled {
+    background-color: #eee;
+    color: #ccc;
+}
+
 #send {
     width: 200px;
     margin-left: 20px;
@@ -98,7 +104,26 @@ button {
 /* nav bar */
 #topNavBar {
     background: #282828;
-    display: flex;
+}
+@media (min-width: 640px){
+    #topNavBar {
+        background: #282828;
+        display: flex;
+        flex-direction: column;
+    }
+    #topNavBar .navbar-toggler {
+        display: none !important;
+    }
+    .navbar-brand.logo {
+        order: 1;
+        width: 200px;
+        height: 65px;
+    }
+    .navbar-collapse {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
 
 
@@ -120,4 +145,5 @@ button {
 /* chat form  */
 #chatEntryPanel {
     padding-bottom: 15px;
+    padding-left: 15px;
 }
