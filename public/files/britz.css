@@ -88,6 +88,11 @@ div .btn-primary {
 .btn-primary:focus {
     box-shadow: none
 }
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus{
+    box-shadow: none;
+}
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -98,8 +103,10 @@ div .btn-primary {
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-    background-color:   #eee;
-    color:              #ccc;
+    background-color:   #f4aa5b;
+    color:              #fff;
+    box-shadow: none;
+    border-color: #f4aa5b;
 }
 
 #send {
@@ -153,4 +160,12 @@ div .btn-primary {
 #chatEntryPanel {
     padding-bottom: 15px;
     padding-left: 15px;
+}
+
+
+
+
+/* end chat screen ------------------------- */
+#endChatOverlay {
+    padding: 0;
 }
