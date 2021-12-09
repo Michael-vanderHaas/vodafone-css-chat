@@ -11,10 +11,20 @@ body {
     background: #fff;
 }
 
-.jubmotron {
+.jumbotron {
     background: #282828;
+    padding: 5px;
 }
 
+.jumbotron .logo {
+    width: 200px;
+    height: 65px;
+    background: #f77f26;
+}
+.jumbotron .chat-header,
+.jumbotron h4 {
+    display: none;
+}
 
 button {
     background: #f77f26;
