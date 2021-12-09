@@ -47,10 +47,33 @@ button {
     margin-bottom: 20px;
 }
 
+/* input -- */
 .form-control {
     border-radius: 0;
 }
+.form-control:focus {
+    border-color: #f4aa5b;
+    box-shadow: none
+}
+#fullName {
+    margin-bottom: 20px;
+}
 
+/* button -- */
 .btn {
     border-radius: 0;
 }
+.btn-primary {
+    background: #f77f26;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-primary:hover {
+    background: #df7120;
+}
+.btn-primary:focus {
+    box-shadow: none
+}
+
+
+
