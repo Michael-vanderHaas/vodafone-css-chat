@@ -142,6 +142,10 @@ div .btn-primary {
         order : 2;
     }
 
+    .nav-item {
+
+    }
+
     .nav-link {
         height: 46px;
         text-align: center;
@@ -166,7 +170,9 @@ div .btn-primary {
         background: #df7120;
     }
 
-
+    .navbar-nav {
+        flex-direction: row;
+    }
 
 }
 
