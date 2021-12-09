@@ -89,3 +89,35 @@ button {
     border-color: #f4aa5b;
 }
 
+#send {
+    width: 200px;
+    margin-left: 20px;
+}
+
+
+/* nav bar */
+#topNavBar {
+    background: #282828;
+    display: flex;
+}
+
+
+/* chat */
+.text-ballon.agent {
+    border-radius: 0;
+    border: none;
+    padding: 5px 10px;
+}
+.text-ballon.agent {
+
+    background: #dcebf8;
+}
+.text-ballon.customer {
+    background: #2989e8;
+}
+
+
+/* chat form  */
+#chatEntryPanel {
+    padding-bottom: 15px;
+}
