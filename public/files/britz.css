@@ -123,7 +123,10 @@ div .btn-primary {
     #topNavBar {
         background: #282828;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+    }
+    #topNavBar a.logo {
+        order : 1;
     }
     #topNavBar .navbar-toggler {
         display: none !important;
@@ -136,6 +139,7 @@ div .btn-primary {
     .navbar-collapse {
         display: flex;
         flex-direction: row;
+        order : 2;
     }
 
     .nav-link {
@@ -146,9 +150,23 @@ div .btn-primary {
         justify-content: center;
         align-items: center;
         color: #fff;
-        background: #f77f26;
         flex-direction: row;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: transparent;
+        border: 1px solid #fff;
     }
+    li[data-content-id="end"] .nav-link {
+        background: #f77f26;
+    }
+    li[data-content-id="end"] .nav-link:focus {
+        background: #f4aa5b;
+    }
+    li[data-content-id="end"] .nav-link:active {
+        background: #df7120;
+    }
+
+
 
 }
 
