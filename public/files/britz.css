@@ -68,7 +68,7 @@ button {
 }
 
 #fullName {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* button -- */
@@ -142,16 +142,16 @@ div .btn-primary {
 
 
 /* chat */
-.text-ballon.agent {
+.text-balloon.agent {
     border-radius: 0;
     border: none;
     padding: 5px 10px;
 }
-.text-ballon.agent {
+.text-balloon.agent {
 
     background: #dcebf8;
 }
-.text-ballon.customer {
+.text-balloon.customer {
     background: #2989e8;
 }
 
