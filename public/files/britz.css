@@ -121,7 +121,7 @@ div .btn-primary {
 }
 @media (min-width: 640px){
     #topNavBar {
-        background: #282828;
+        background: #282828 !important;
         display: flex;
         flex-direction: row;
     }
@@ -140,6 +140,9 @@ div .btn-primary {
         display: flex;
         flex-direction: row;
         order : 2;
+        flex-grow: 0;
+        width: auto;
+        flex-basis: auto;
     }
 
     .nav-item {
