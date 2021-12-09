@@ -147,6 +147,7 @@ div .btn-primary {
         align-items: center;
         color: #fff;
         background: #f77f26;
+        flex-direction: row;
     }
 
 }
