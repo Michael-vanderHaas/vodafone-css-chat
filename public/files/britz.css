@@ -119,6 +119,7 @@ div .btn-primary {
 #topNavBar {
     background: #282828;
 }
+
 @media (min-width: 640px){
     #topNavBar {
         background: #282828 !important;
@@ -135,6 +136,8 @@ div .btn-primary {
         order: 1;
         width: 200px;
         height: 65px;
+        visibility: visible;
+        background: red;
     }
     .navbar-collapse {
         display: flex;
@@ -202,6 +205,8 @@ div .btn-primary {
 #chatEntryPanel {
     padding-bottom: 15px;
     padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
 }
 
 /* buttons in the nav bar */
