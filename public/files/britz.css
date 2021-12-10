@@ -203,9 +203,7 @@ div .btn-primary {
 
 /* chat form  */
 #chatEntryPanel {
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px;
     max-width: 100%;
 }
 
@@ -229,4 +227,24 @@ div .btn-primary {
 /* chat history ------------------- */
 #chatHistory {
     padding-top: 80px;
+}
+
+
+/* download transcript */
+#downloadTranscriptOverlay {
+    padding: 0;
+
+}
+
+#downloadTranscriptOverlay .jumbotron h4,
+#downloadTranscriptOverlay .jumbotron p {
+    display: none;
+}
+#downloadTranscript,
+#closeDownloadOverlay {
+
+    max-width: 320px;
+    display: table;
+    margin: 20px auto;
+
 }
