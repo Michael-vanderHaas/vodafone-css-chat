@@ -317,12 +317,13 @@ div .btn-primary {
         height: 5px;
         background: #fff;
         position: relative;
+        margin-top: 7px;
     }
     #topNavBar .navbar-toggler .navbar-toggler-icon:before {
-        margin-top: 20px;
+        margin-top: 12px;
     }
     #topNavBar .navbar-toggler .navbar-toggler-icon:after {
-        margin-top: 40px;
+        margin-top: 7px;
     }
 
     nav#topNavBar {
