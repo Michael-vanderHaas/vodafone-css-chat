@@ -329,5 +329,11 @@ div .btn-primary {
     nav#topNavBar {
         background: #282828 !important;
     }
+    .nav-link {
+        color: #f77f26;
+    }
+    .nav-link:hover {
+        text-decoration: underline;
+    }
 }
 
