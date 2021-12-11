@@ -236,10 +236,6 @@ div .btn-primary {
 
 }
 
-#downloadTranscriptOverlay .jumbotron h4,
-#downloadTranscriptOverlay .jumbotron p {
-    display: none;
-}
 
 #endChat,
 #closeEndChatOverlay,
@@ -249,5 +245,31 @@ div .btn-primary {
     max-width: 320px;
     display: table;
     margin: 20px auto;
+}
 
+#endChat {
+    border: 1px solid #f77f26;
+    background: transparent;
+}
+#endChat:focus,
+#endChat:hover {
+    background: #eee;
+    color:      #000;
+    border-color: #000;
+}
+
+
+#endChatOverlay .jumbotron{
+    width:          100%;
+    height:         90px;
+    background-color:     #282828;
+    margin:             0;
+}
+#endChatOverlay .jumbotron h4,
+#endChatOverlay .jumbotron p {
+    width: 100px;
+    text-align: center;
+}
+#endChatOverlay .jumbotron h4 {
+    margin-top: 25vh;
 }
