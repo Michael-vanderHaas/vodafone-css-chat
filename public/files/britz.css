@@ -27,8 +27,8 @@ body {
     margin-top: 8px;
     margin-left: 20px;
 }
-.jumbotron .chat-header,
-.jumbotron h4 {
+#preChatForm .jumbotron .chat-header,
+#preChatForm .jumbotron h4 {
     display: none;
 }
 
