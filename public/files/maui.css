@@ -33,7 +33,7 @@ body {
 }
 
 button {
-    background: #f77f26;
+    background: #02878e;
 }
 
 .questionaire {
@@ -60,7 +60,7 @@ button {
     border-radius: 0;
 }
 .form-control:focus {
-    border-color: #f4aa5b;
+    border-color: #0fc7d1;
     box-shadow: none
 }
 .required:focus {
@@ -76,14 +76,14 @@ button {
     border-radius: 0;
 }
 div .btn-primary {
-    background-color: #f77f26;
-    border: 1px solid  #f77f26;
+    background-color: #02878e;
+    border: 1px solid  #02878e;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .btn-primary:hover {
-    background-color: #df7120;
-    border-color: #df7120;
+    background-color: #01656a;
+    border-color: #01656a;
 }
 .btn-primary:focus {
     box-shadow: none
@@ -97,16 +97,16 @@ div .btn-primary {
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-color:   #f4aa5b;
-    border-color:       #f4aa5b;
+    background-color:   #0fc7d1;
+    border-color:       #0fc7d1;
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-    background-color:   #f4aa5b;
+    background-color:   #0fc7d1;
     color:              #fff;
     box-shadow: none;
-    border-color: #f4aa5b;
+    border-color: #0fc7d1;
 }
 
 #send {
@@ -167,16 +167,16 @@ div .btn-primary {
         border: 1px solid #fff;
     }
     li[data-content-id="end"] .nav-link {
-        background: #f77f26;
-        border-color: #f77f26;
+        background: #02878e;
+        border-color: #02878e;
     }
     li[data-content-id="end"] .nav-link:focus {
-        background: #f4aa5b;
-        border-color: #f4aa5b;
+        background: #0fc7d1;
+        border-color: #0fc7d1;
     }
     li[data-content-id="end"] .nav-link:active {
-        background: #df7120;
-        border-color: #df7120;
+        background: #01656a;
+        border-color: #01656a;
     }
 
     .navbar-nav {
@@ -249,9 +249,9 @@ div .btn-primary {
 
 #closeDownloadOverlay,
 #closeEndChatOverlay {
-    border: 1px solid #f77f26;
+    border: 1px solid #02878e;
     background: transparent;
-    color: #f77f26;
+    color: #02878e;
 }
 #closeDownloadOverlay:hover,
 #closeDownloadOverlay:focus,
@@ -286,38 +286,3 @@ div .btn-primary {
     margin-top:     25vh;
 }
 
-/* add to maui */
-@media (max-width: 575px){
-    #chatEntryPanel #send {
-        width: auto;
-    }
-}
-.questionaire {
-    padding-left:   20px;
-    padding-right:  20px;
-    width:          100%;
-    max-width:      360px;
-}
-
-@media (max-width: 639px){
-    #topNavBar .navbar-toggler {
-        border: none;
-        display: flex;
-        width: 50px;
-        position: relative;
-    }
-
-    #topNavBar .navbar-toggler .navbar-toggler-icon,
-    #topNavBar .navbar-toggler .navbar-toggler-icon:before,
-    #topNavBar .navbar-toggler .navbar-toggler-icon:after {
-        display: block;
-        content: '';
-        width: 100%;
-        height: 5px;
-        background: #000;
-        position: relative;
-    }
-    #topNavBar .navbar-toggler .navbar-toggler-icon:before {
-        margin-top: -20px;
-    }
-}
