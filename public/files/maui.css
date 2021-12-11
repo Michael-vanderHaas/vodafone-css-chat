@@ -286,3 +286,52 @@ div .btn-primary {
     margin-top:     25vh;
 }
 
+@media (max-width: 575px){
+    #chatEntryPanel #send {
+        width: auto;
+    }
+}
+.questionaire {
+    padding-left:   20px;
+    padding-right:  20px;
+    width:          100%;
+    max-width:      360px;
+}
+
+@media (max-width: 639px){
+    #topNavBar .navbar-toggler {
+        border: none;
+        display: flex;
+        width: 50px;
+        height: 50px;
+        position: relative;
+    }
+
+    #topNavBar .navbar-toggler .navbar-toggler-icon,
+    #topNavBar .navbar-toggler .navbar-toggler-icon:before,
+    #topNavBar .navbar-toggler .navbar-toggler-icon:after {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 5px;
+        background: #fff;
+        position: relative;
+        margin-top: 7px;
+    }
+    #topNavBar .navbar-toggler .navbar-toggler-icon:before {
+        margin-top: 12px;
+    }
+    #topNavBar .navbar-toggler .navbar-toggler-icon:after {
+        margin-top: 7px;
+    }
+
+    nav#topNavBar {
+        background: #282828 !important;
+    }
+    .nav-link {
+        color: #0fc7d1;
+    }
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+}
