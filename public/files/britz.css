@@ -247,11 +247,14 @@ div .btn-primary {
     margin: 20px auto;
 }
 
+#closeDownloadOverlay,
 #closeEndChatOverlay {
     border: 1px solid #f77f26;
     background: transparent;
     color: #f77f26;
 }
+#closeDownloadOverlay:hover,
+#closeDownloadOverlay:focus,
 #closeEndChatOverlay:focus,
 #closeEndChatOverlay:hover {
     background: #eee;
@@ -259,13 +262,16 @@ div .btn-primary {
     border-color: #000;
 }
 
-
+#downloadTranscriptOverlay .jumbotron,
 #endChatOverlay .jumbotron{
     width:              100%;
     height:             90px;
     background-color:   #282828;
     margin:             0;
 }
+
+#downloadTranscriptOverlay .jumbotron h4,
+#downloadTranscriptOverlay .jumbotron p,
 #endChatOverlay .jumbotron h4,
 #endChatOverlay .jumbotron p {
     width:          100%;
@@ -274,6 +280,8 @@ div .btn-primary {
     padding-right:  20px;
     float:          left;
 }
+
+#downloadTranscriptOverlay .jumbotron h4,
 #endChatOverlay .jumbotron h4 {
     margin-top:     25vh;
 }
