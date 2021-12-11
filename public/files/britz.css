@@ -304,6 +304,7 @@ div .btn-primary {
         border: none;
         display: flex;
         width: 50px;
+        height: 50px;
         position: relative;
     }
 
@@ -314,10 +315,18 @@ div .btn-primary {
         content: '';
         width: 100%;
         height: 5px;
-        background: #000;
+        background: #fff;
         position: relative;
     }
     #topNavBar .navbar-toggler .navbar-toggler-icon:before {
-        margin-top: -20px;
+        margin-top: 20px;
+    }
+    #topNavBar .navbar-toggler .navbar-toggler-icon:after {
+        margin-top: 40px;
+    }
+
+    nav#topNavBar {
+        background: #282828 !important;
     }
 }
+
