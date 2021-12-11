@@ -272,6 +272,7 @@ div .btn-primary {
     text-align:     center;
     padding-left:   20px;
     padding-right:  20px;
+    float:          left;
 }
 #endChatOverlay .jumbotron h4 {
     margin-top:     25vh;
