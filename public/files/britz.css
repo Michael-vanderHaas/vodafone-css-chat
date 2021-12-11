@@ -286,7 +286,6 @@ div .btn-primary {
     margin-top:     25vh;
 }
 
-/* add to maui */
 @media (max-width: 575px){
     #chatEntryPanel #send {
         width: auto;
