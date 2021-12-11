@@ -247,12 +247,13 @@ div .btn-primary {
     margin: 20px auto;
 }
 
-#endChat {
+#closeEndChatOverlay {
     border: 1px solid #f77f26;
     background: transparent;
+    color: #f77f26;
 }
-#endChat:focus,
-#endChat:hover {
+#closeEndChatOverlay:focus,
+#closeEndChatOverlay:hover {
     background: #eee;
     color:      #000;
     border-color: #000;
@@ -260,16 +261,18 @@ div .btn-primary {
 
 
 #endChatOverlay .jumbotron{
-    width:          100%;
-    height:         90px;
-    background-color:     #282828;
+    width:              100%;
+    height:             90px;
+    background-color:   #282828;
     margin:             0;
 }
 #endChatOverlay .jumbotron h4,
 #endChatOverlay .jumbotron p {
-    width: 100px;
-    text-align: center;
+    width:          100%;
+    text-align:     center;
+    padding-left:   20px;
+    padding-right:  20px;
 }
 #endChatOverlay .jumbotron h4 {
-    margin-top: 25vh;
+    margin-top:     25vh;
 }
