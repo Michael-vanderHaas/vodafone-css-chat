@@ -332,7 +332,7 @@ div .btn-primary {
         background: #282828 !important;
     }
     .nav-link {
-        color: #f77f26;
+        color: #f77f26 !important;
     }
     .nav-link:hover {
         text-decoration: underline;
