@@ -21,8 +21,9 @@ body {
 .jumbotron #logo {
     width: 200px;
     height: 65px;
-    background: red;
-
+    background-image: url(https://thl.widen.net/content/qnl4pxzo3l/png/maui_white.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
+    background-position: center;
+    background-size: contain;
     float: left;
     margin-top: 8px;
     margin-left: 20px;
@@ -137,7 +138,9 @@ div .btn-primary {
         width: 200px;
         height: 65px;
         visibility: visible;
-        background: red;
+        background-image: url(https://thl.widen.net/content/qnl4pxzo3l/png/maui_white.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
+        background-size: contain;
+        background-position: center;
     }
     .navbar-collapse {
         display: flex;
