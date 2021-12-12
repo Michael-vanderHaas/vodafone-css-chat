@@ -21,7 +21,7 @@ body {
 .jumbotron #logo {
     width: 200px;
     height: 65px;
-    background-image: url(https://thl.widen.net/content/hggiyglcmb/png/Britz_WHITE_Letters.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
+    background-image: url(https://thl.widen.net/content/bjlqdvhgrd/png/Mighty%20Campers%20Reverse.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
     background-position: left center ;
     background-size: 100px 30px;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body {
 }
 
 button {
-    background: #f77f26;
+    background: #ce2e23;
 }
 
 .questionaire {
@@ -63,8 +63,8 @@ button {
     border-radius: 0;
 }
 .form-control:focus {
-    border-color: #f4aa5b;
-    box-shadow: none
+    border-color:   #f15a4f;
+    box-shadow:     none
 }
 .required:focus {
     box-shadow: none;
@@ -79,14 +79,14 @@ button {
     border-radius: 0;
 }
 div .btn-primary {
-    background-color: #f77f26;
-    border: 1px solid  #f77f26;
+    background-color: #ce2e23;
+    border: 1px solid  #ce2e23;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .btn-primary:hover {
-    background-color: #df7120;
-    border-color: #df7120;
+    background-color: #a50f04;
+    border-color: #a50f04;
 }
 .btn-primary:focus {
     box-shadow: none
@@ -100,16 +100,16 @@ div .btn-primary {
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-color:   #f4aa5b;
-    border-color:       #f4aa5b;
+    background-color:   #f15a4f;
+    border-color:       #f15a4f;
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-    background-color:   #f4aa5b;
+    background-color:   #f15a4f;
     color:              #fff;
     box-shadow: none;
-    border-color: #f4aa5b;
+    border-color: #f15a4f;
 }
 
 #send {
@@ -140,7 +140,7 @@ div .btn-primary {
         width: 200px;
         height: 65px;
         visibility: visible;
-        background-image: url(https://thl.widen.net/content/hggiyglcmb/png/Britz_WHITE_Letters.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
+        background-image: url(https://thl.widen.net/content/bjlqdvhgrd/png/Mighty%20Campers%20Reverse.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
         background-size: 100px 30px;
         background-position: left center ;
         background-repeat: no-repeat;
@@ -174,16 +174,16 @@ div .btn-primary {
         border: 1px solid #fff;
     }
     li[data-content-id="end"] .nav-link {
-        background: #f77f26;
-        border-color: #f77f26;
+        background: #ce2e23;
+        border-color: #ce2e23;
     }
     li[data-content-id="end"] .nav-link:focus {
-        background: #f4aa5b;
-        border-color: #f4aa5b;
+        background: #f15a4f;
+        border-color: #f15a4f;
     }
     li[data-content-id="end"] .nav-link:active {
-        background: #df7120;
-        border-color: #df7120;
+        background: #a50f04;
+        border-color: #a50f04;
     }
 
     .navbar-nav {
@@ -256,9 +256,9 @@ div .btn-primary {
 
 #closeDownloadOverlay,
 #closeEndChatOverlay {
-    border: 1px solid #f77f26;
+    border: 1px solid #ce2e23;
     background: transparent;
-    color: #f77f26;
+    color: #ce2e23;
 }
 #closeDownloadOverlay:hover,
 #closeDownloadOverlay:focus,
@@ -336,7 +336,7 @@ div .btn-primary {
         background: #282828 !important;
     }
     .nav-link {
-        color: #f77f26 !important;
+        color: #ce2e23 !important;
     }
     .nav-link:hover {
         text-decoration: underline;
@@ -344,7 +344,7 @@ div .btn-primary {
 
 
     .navbar-brand.logo {
-        background-image: url(https://thl.widen.net/content/hggiyglcmb/png/Britz_WHITE_Letters.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
+        background-image: url(https://thl.widen.net/content/bjlqdvhgrd/png/Mighty%20Campers%20Reverse.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
         background-size: 100px 30px;
         background-position: right center ;
         background-repeat: no-repeat;
