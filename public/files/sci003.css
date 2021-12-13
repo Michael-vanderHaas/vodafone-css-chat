@@ -1,0 +1,354 @@
+body {
+    background: #fff;
+}
+
+#preChatForm {
+    min-height: 100vh;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+
+.jumbotron {
+    background: #282828;
+    padding: 5px;
+    border-radius: 0;
+    height: 90px;
+}
+
+.jumbotron #logo {
+    width: 200px;
+    height: 65px;
+    background-image: url(https://res.cloudinary.com/thl/image/upload/f_auto,q_85,w_200,h_60,c_fit/v1552341703/thlonline/ccb/logos/logo-white_2x.png);
+    background-position: left center ;
+    background-size: 100px 30px;
+    background-repeat: no-repeat;
+    visibility: visible;
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+#preChatForm .jumbotron .chat-header,
+#preChatForm .jumbotron h4 {
+    display: none;
+}
+
+button {
+    background: #ce2e23;
+}
+
+.questionaire {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    width: 320px;
+    align-items: center;
+    margin: auto;
+    background: #fff;
+}
+
+.questionaire:before {
+    content: 'Welcome to Live Chat';
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+/* input -- */
+.form-control {
+    border-radius: 0;
+}
+.form-control:focus {
+    border-color:   #f15a4f;
+    box-shadow:     none
+}
+.required:focus {
+    box-shadow: none;
+}
+
+#fullName {
+    margin-bottom: 10px;
+}
+
+/* button -- */
+.btn {
+    border-radius: 0;
+}
+div .btn-primary {
+    background-color: #ce2e23;
+    border: 1px solid  #ce2e23;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-primary:hover {
+    background-color: #a50f04;
+    border-color: #a50f04;
+}
+.btn-primary:focus {
+    box-shadow: none
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus{
+    box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color:   #f15a4f;
+    border-color:       #f15a4f;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    background-color:   #f15a4f;
+    color:              #fff;
+    box-shadow: none;
+    border-color: #f15a4f;
+}
+
+#send {
+    width: 200px;
+    margin-left: 20px;
+}
+
+
+/* nav bar */
+#topNavBar {
+    background: #282828;
+}
+
+@media (min-width: 640px){
+    #topNavBar {
+        background: #282828 !important;
+        display: flex;
+        flex-direction: row;
+    }
+    #topNavBar a.logo {
+        order : 1;
+    }
+    #topNavBar .navbar-toggler {
+        display: none !important;
+    }
+    .navbar-brand.logo {
+        order: 1;
+        width: 200px;
+        height: 65px;
+        visibility: visible;
+        background-image: url(https://res.cloudinary.com/thl/image/upload/f_auto,q_85,w_200,h_60,c_fit/v1552341703/thlonline/ccb/logos/logo-white_2x.png);
+        background-size: 100px 30px;
+        background-position: left center ;
+        background-repeat: no-repeat;
+        visibility: visible;
+    }
+    .navbar-collapse {
+        display: flex;
+        flex-direction: row;
+        order : 2;
+        flex-grow: 0;
+        width: auto;
+        flex-basis: auto;
+    }
+
+    .nav-item {
+        padding: 0 5px;
+    }
+
+    .navbar-nav .nav-link {
+        height: 46px;
+        text-align: center;
+        line-height: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff !important;
+        flex-direction: row;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: transparent;
+        border: 1px solid #fff;
+    }
+    li[data-content-id="end"] .nav-link {
+        background: #ce2e23;
+        border-color: #ce2e23;
+    }
+    li[data-content-id="end"] .nav-link:focus {
+        background: #f15a4f;
+        border-color: #f15a4f;
+    }
+    li[data-content-id="end"] .nav-link:active {
+        background: #a50f04;
+        border-color: #a50f04;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+}
+
+
+/* chat */
+.text-balloon {
+    border-radius: 0;
+    border: none;
+    padding: 5px 10px;
+}
+.text-balloon.agent {
+
+    background: #dcebf8;
+}
+.text-balloon.customer {
+    background: #2989e8;
+}
+
+
+/* chat form  */
+#chatEntryPanel {
+    padding: 15px;
+    max-width: 100%;
+}
+
+/* buttons in the nav bar */
+
+
+/* end chat screen ------------------------- */
+#endChatOverlay {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#endChat,
+#closeEndChatOverlay {
+    max-width: 320px;
+    height: 42px;
+}
+
+
+/* chat history ------------------- */
+#chatHistory {
+    padding-top: 80px;
+}
+
+
+/* download transcript */
+#downloadTranscriptOverlay {
+    padding: 0;
+
+}
+
+
+#endChat,
+#closeEndChatOverlay,
+#downloadTranscript,
+#closeDownloadOverlay {
+    height: 42px;
+    max-width: 320px;
+    display: table;
+    margin: 20px auto;
+}
+
+#closeDownloadOverlay,
+#closeEndChatOverlay {
+    border: 1px solid #ce2e23;
+    background: transparent;
+    color: #ce2e23;
+}
+#closeDownloadOverlay:hover,
+#closeDownloadOverlay:focus,
+#closeEndChatOverlay:focus,
+#closeEndChatOverlay:hover {
+    background: #eee;
+    color:      #000;
+    border-color: #000;
+}
+
+#downloadTranscriptOverlay .jumbotron,
+#endChatOverlay .jumbotron{
+    width:              100%;
+    height:             90px;
+    background-color:   #282828;
+    margin:             0;
+}
+
+#downloadTranscriptOverlay .jumbotron h4,
+#downloadTranscriptOverlay .jumbotron p,
+#endChatOverlay .jumbotron h4,
+#endChatOverlay .jumbotron p {
+    width:          100%;
+    text-align:     center;
+    padding-left:   20px;
+    padding-right:  20px;
+    float:          left;
+}
+
+#downloadTranscriptOverlay .jumbotron h4,
+#endChatOverlay .jumbotron h4 {
+    margin-top:     25vh;
+}
+
+@media (max-width: 575px){
+    #chatEntryPanel #send {
+        width: auto;
+    }
+}
+.questionaire {
+    padding-left:   20px;
+    padding-right:  20px;
+    width:          100%;
+    max-width:      360px;
+}
+
+@media (max-width: 639px){
+    #topNavBar .navbar-toggler {
+        border: none;
+        display: flex;
+        width: 50px;
+        height: 50px;
+        position: relative;
+    }
+
+    #topNavBar .navbar-toggler .navbar-toggler-icon,
+    #topNavBar .navbar-toggler .navbar-toggler-icon:before,
+    #topNavBar .navbar-toggler .navbar-toggler-icon:after {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 5px;
+        background: #fff;
+        position: relative;
+        margin-top: 7px;
+    }
+    #topNavBar .navbar-toggler .navbar-toggler-icon:before {
+        margin-top: 12px;
+    }
+    #topNavBar .navbar-toggler .navbar-toggler-icon:after {
+        margin-top: 7px;
+    }
+
+    nav#topNavBar {
+        background: #282828 !important;
+    }
+    .nav-link {
+        color: #ce2e23 !important;
+    }
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+
+    .navbar-brand.logo {
+        background-image: url(https://res.cloudinary.com/thl/image/upload/f_auto,q_85,w_200,h_60,c_fit/v1552341703/thlonline/ccb/logos/logo-white_2x.png);
+        background-size: 100px 30px;
+        background-position: right center ;
+        background-repeat: no-repeat;
+        visibility: visible;
+    }
+}
+
