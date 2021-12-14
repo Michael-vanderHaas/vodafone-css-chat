@@ -255,12 +255,17 @@ div .btn-primary {
     margin: 20px auto;
 }
 
+#closePromoteToVoiceOverlay,
 #closeDownloadOverlay,
 #closeEndChatOverlay {
     border: 1px solid #f77f26;
     background: transparent;
     color: #f77f26;
 }
+
+
+#closePromoteToVoiceOverlay:hover,
+#closePromoteToVoiceOverlay:focus,
 #closeDownloadOverlay:hover,
 #closeDownloadOverlay:focus,
 #closeEndChatOverlay:focus,
