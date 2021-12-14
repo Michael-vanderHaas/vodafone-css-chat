@@ -296,7 +296,6 @@ div .btn-primary {
     padding-left:   20px;
     padding-right:  20px;
     float:          left;
-    width: calc(100% - 40px); /* apple */
 }
 
 #promoteToVoiceOverlay .jumbotron h4, /* new */

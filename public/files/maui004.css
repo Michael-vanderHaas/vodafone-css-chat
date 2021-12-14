@@ -296,7 +296,6 @@ div .btn-primary {
     padding-left:   20px;
     padding-right:  20px;
     float:          left;
-    width: calc(100% - 40px); /* apple */
 }
 
 #promoteToVoiceOverlay .jumbotron h4, /* new */
@@ -394,3 +393,10 @@ div .btn-primary {
         padding-right: 6px;
     }
 }
+
+/* banana */
+#closeDownloadOverlay,
+#downloadTranscriptOverlay {
+    max-width: calc(100% - 40px);
+}
+
