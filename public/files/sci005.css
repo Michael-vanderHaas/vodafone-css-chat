@@ -397,7 +397,7 @@ div .btn-primary {
 #closeDownloadOverlay,
 #endChat,
 #closeEndChatOverlay {
-    max-width: calc(100% - 40px);
+    width: calc(100% - 40px);
 }
 
 
