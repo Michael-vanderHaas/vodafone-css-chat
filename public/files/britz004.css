@@ -377,3 +377,11 @@ div .btn-primary {
     max-width: 465px;
     text-align: center;
 }
+
+
+
+@media (min-width: 640px) and (max-width: 810px){
+    .navbar-brand.logo {
+        width: 100px;
+    }
+}
