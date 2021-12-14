@@ -358,3 +358,12 @@ div .btn-primary {
     }
 }
 
+#promoteToVoiceOverlay #promoteToVoice,
+#promoteToVoiceOverlay #closePromoteToVoiceOverlay,
+#promoteToVoiceOverlay #promotePhoneNumber {
+    max-width: 320px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
