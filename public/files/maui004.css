@@ -395,8 +395,10 @@ div .btn-primary {
 }
 
 /* banana */
+#downloadTranscript,
 #closeDownloadOverlay,
-#downloadTranscriptOverlay {
+#endChat,
+#closeEndChatOverlay {
     max-width: calc(100% - 40px);
 }
 
