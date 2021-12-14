@@ -357,7 +357,7 @@ div .btn-primary {
         visibility: visible;
     }
 }
-
+#promoteToVoiceOverlay label,
 #promoteToVoiceOverlay #promoteToVoice,
 #promoteToVoiceOverlay #closePromoteToVoiceOverlay,
 #promoteToVoiceOverlay #promotePhoneNumber {
@@ -366,4 +366,9 @@ div .btn-primary {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+#promoteToVoiceOverlay label {
+    max-width: 465px;
+    text-align: center;
 }
