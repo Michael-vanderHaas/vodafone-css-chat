@@ -384,4 +384,8 @@ div .btn-primary {
     .navbar-brand.logo {
         width: 100px;
     }
+    .navbar-nav .nav-link {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
 }
