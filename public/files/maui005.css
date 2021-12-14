@@ -21,7 +21,7 @@ body {
 .jumbotron #logo {
     width: 200px;
     height: 65px;
-    background-image: url(https://thl.widen.net/content/hggiyglcmb/png/Britz_WHITE_Letters.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
+    background-image: url(https://thl.widen.net/content/qnl4pxzo3l/png/maui_white.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
     background-position: left center ;
     background-size: 100px 30px;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body {
 }
 
 button {
-    background: #f77f26;
+    background: #02878e;
 }
 
 .questionaire {
@@ -63,8 +63,8 @@ button {
     border-radius: 0;
 }
 .form-control:focus {
-    border-color: #f4aa5b;
-    box-shadow: none
+    border-color:   #0fc7d1;
+    box-shadow:     none
 }
 .required:focus {
     box-shadow: none;
@@ -79,14 +79,14 @@ button {
     border-radius: 0;
 }
 div .btn-primary {
-    background-color: #f77f26;
-    border: 1px solid  #f77f26;
+    background-color: #02878e;
+    border: 1px solid  #02878e;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .btn-primary:hover {
-    background-color: #df7120;
-    border-color: #df7120;
+    background-color: #01656a;
+    border-color: #01656a;
 }
 .btn-primary:focus {
     box-shadow: none
@@ -100,16 +100,16 @@ div .btn-primary {
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-color:   #f4aa5b;
-    border-color:       #f4aa5b;
+    background-color:   #0fc7d1;
+    border-color:       #0fc7d1;
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-    background-color:   #f4aa5b;
+    background-color:   #0fc7d1;
     color:              #fff;
     box-shadow: none;
-    border-color: #f4aa5b;
+    border-color: #0fc7d1;
 }
 
 #send {
@@ -140,7 +140,7 @@ div .btn-primary {
         width: 200px;
         height: 65px;
         visibility: visible;
-        background-image: url(https://thl.widen.net/content/hggiyglcmb/png/Britz_WHITE_Letters.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
+        background-image: url(https://thl.widen.net/content/qnl4pxzo3l/png/maui_white.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
         background-size: 100px 30px;
         background-position: left center ;
         background-repeat: no-repeat;
@@ -174,16 +174,16 @@ div .btn-primary {
         border: 1px solid #fff;
     }
     li[data-content-id="end"] .nav-link {
-        background: #f77f26;
-        border-color: #f77f26;
+        background: #02878e;
+        border-color: #02878e;
     }
     li[data-content-id="end"] .nav-link:focus {
-        background: #f4aa5b;
-        border-color: #f4aa5b;
+        background: #0fc7d1;
+        border-color: #0fc7d1;
     }
     li[data-content-id="end"] .nav-link:active {
-        background: #df7120;
-        border-color: #df7120;
+        background: #01656a;
+        border-color: #01656a;
     }
 
     .navbar-nav {
@@ -258,9 +258,9 @@ div .btn-primary {
 #closePromoteToVoiceOverlay, /* new */
 #closeDownloadOverlay,
 #closeEndChatOverlay {
-    border: 1px solid #f77f26;
+    border: 1px solid #02878e;
     background: transparent;
-    color: #f77f26;
+    color: #02878e;
 }
 
 
@@ -347,7 +347,7 @@ div .btn-primary {
         background: #282828 !important;
     }
     .nav-link {
-        color: #f77f26 !important;
+        color: #02878e !important;
     }
     .nav-link:hover {
         text-decoration: underline;
@@ -355,7 +355,7 @@ div .btn-primary {
 
 
     .navbar-brand.logo {
-        background-image: url(https://thl.widen.net/content/hggiyglcmb/png/Britz_WHITE_Letters.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
+        background-image: url(https://thl.widen.net/content/qnl4pxzo3l/png/maui_white.png?crop=false&position=c&color=ffffff00&u=gvvvh2&w=200&h=60);
         background-size: 100px 30px;
         background-position: right center ;
         background-repeat: no-repeat;
@@ -394,7 +394,6 @@ div .btn-primary {
     }
 }
 
-
 /* banana */
 #downloadTranscript,
 #closeDownloadOverlay,
@@ -402,3 +401,4 @@ div .btn-primary {
 #closeEndChatOverlay {
     max-width: calc(100% - 40px);
 }
+
